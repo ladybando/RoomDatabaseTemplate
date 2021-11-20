@@ -16,6 +16,8 @@ Used to make creating database class easier
 ![plusIcon](https://user-images.githubusercontent.com/29929889/142737488-bc891c80-f759-40bf-b8ca-ceb07a94fd03.jpg)
 
 - Click on <strong>Define</strong> next to <strong>No applicable contexts</strong> and select <strong>Kotlin</strong> from the list.
+![contextsAdd](https://user-images.githubusercontent.com/29929889/142737764-0998ac98-8209-41a8-948d-9331f88f9559.jpg)
+
 - Click on <strong>1. Live Template</strong>.
 ![clickliveTemplate](https://user-images.githubusercontent.com/29929889/142737475-a8c6885a-00ff-4cdd-809f-c1b558ea32b3.jpg)
 
