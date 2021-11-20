@@ -1,4 +1,4 @@
-@Database(entities = [ItemRoomDatabase::class], version = 1, exportSchema = false)
+@Database(entities = [Item::class], version = 1, exportSchema = false)
 abstract class ItemRoomDatabase : RoomDatabase() {
 //Remove parentheses and enter Dao Class name
     abstract fun itemDao() : "$DAO_CLASS_NAME$"
