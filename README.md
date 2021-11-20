@@ -9,7 +9,6 @@ Used to make creating database class easier
 ### Set Up
 
 - Press Ctrl + Shift + A (Windows) or Cmd + Shift + A (Mac) to open Action Window and type <strong>Add Template</strong>. You can also click on <em>File > Settings > Live Templates</em>.
-- ![addTemplate](https://user-images.githubusercontent.com/29929889/142737465-e64f8d33-1091-4c80-a1fb-db987686897a.jpg)
 - Click on the arrow to the left of <strong>Kotlin</strong>.  
 ![kotlinselect](https://user-images.githubusercontent.com/29929889/142737695-987f0a0a-5e33-4996-b00d-895c9a9cbb0e.jpg)
 
@@ -22,7 +21,7 @@ Used to make creating database class easier
 
 - Give an abbreviated name (and description, if you like) to the template and paste the template code in the <em>Template Text</em> box.
 ![addAbbrev](https://user-images.githubusercontent.com/29929889/142737402-37e043ea-b3e3-4b83-a255-95defb3f1017.jpg)
-
+![addTemplate](https://user-images.githubusercontent.com/29929889/142737465-e64f8d33-1091-4c80-a1fb-db987686897a.jpg)
 - Click on <strong>Edit Variables</strong>.
 - Give the classes an expression of <strong>kotlinClassName()</strong> and the functions an expression of <strong>kotlinFunctionName()</strong.
 - Click on <strong>Apply</strong> and <strong>OK</strong>.
