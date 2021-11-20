@@ -1,17 +1,16 @@
-@Database(entities = [ItemEntity::class], version = 1, exportSchema = false)
-abstract class ItemRoomDatabase : RoomDatabase() {
-//Remove parentheses and enter Dao Class name
-    abstract fun itemDao() : "$DAO_CLASS_NAME$"
-    
+@Database(entities = [$ENTITY_CLASS_NAME$::class], version = 1, exportSchema = false)
+abstract class $CLASS_NAME$ : RoomDatabase() {
+
+    abstract fun $DAO_FUNCTION_NAME$() : $DAO_CLASS_NAME$"
     companion object{
          @Volatile
-         private var INSTANCE: ItemRoomDatabase? = null
+         private var INSTANCE: $CLASS_NAME$? = null
     
-         fun getDatabase(context: Context): ItemRoomDatabase{
+         fun $FUNCTION_NAME$(context: Context): $CLASS_NAME${
          return INSTANCE ?: synchronized(this) { 
                 val instance = Room.databaseBuilder(
                    context.applicationContext,
-                   ItemRoomDatabase::class.java,
+                   $CLASS_NAME$::class.java,
                    "item_database"
                    )
                    .fallbackToDestructiveMigration()
