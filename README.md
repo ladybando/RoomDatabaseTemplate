@@ -11,6 +11,8 @@ Used to make creating database class easier
 - Press Ctrl + Shift + A (Windows) or Cmd + Shift + A (Mac) to open Action Window and type <strong>Add Template</strong>. You can also click on <em>File > Settings > Live Templates</em>.
 - ![addTemplate](https://user-images.githubusercontent.com/29929889/142737465-e64f8d33-1091-4c80-a1fb-db987686897a.jpg)
 - Click on the arrow to the left of <strong>Kotlin</strong>.  
+![kotlinselect](https://user-images.githubusercontent.com/29929889/142737695-987f0a0a-5e33-4996-b00d-895c9a9cbb0e.jpg)
+
 - Click on the <strong>Plus</strong> ➕ icon
 ![plusIcon](https://user-images.githubusercontent.com/29929889/142737488-bc891c80-f759-40bf-b8ca-ceb07a94fd03.jpg)
 
