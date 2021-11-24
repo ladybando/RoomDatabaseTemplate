@@ -1,7 +1,7 @@
 @Database(entities = [$ENTITY_CLASS_NAME$::class], version = 1, exportSchema = false)
 abstract class $CLASS_NAME$ : RoomDatabase() {
 
-    abstract fun $DAO_FUNCTION_NAME$() : $DAO_CLASS_NAME$"
+    abstract fun $DAO_FUNCTION_NAME$() : $DAO_CLASS_NAME$
     companion object{
          @Volatile
          private var INSTANCE: $CLASS_NAME$? = null
